@@ -34,7 +34,7 @@ All the generated features are combined into a new DataFrame, merging the inform
 ### Saving Results:
 The final DataFrame containing all the business characteristics in the neighborhoods is saved in a CSV file and a JSON file. These files serve as the database for generating Business Intelligence reports.
 
-### Business Intelligence Reports
+### Business Intelligence Reports:
 Based on the features created during the feature engineering process, detailed reports were generated for each neighborhood in Barcelona, including:
 
 Poblenou: With a total of 1,512 businesses, an average age of 2.64 years, and a high concentration of medium and large businesses. It is suggested to leverage the existing infrastructure for new strategic partnerships and commercial expansion.
