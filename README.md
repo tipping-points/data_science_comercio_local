@@ -33,10 +33,10 @@ Tamaño de los negocios: Clasifica los negocios en pequeños, medianos o grandes
 Combinación de características:
 Todas las características generadas se combinan en un nuevo DataFrame, uniendo la información de cada barrio para tener una vista integral del panorama comercial de Barcelona.
 
-Guardar los resultados:
+### Guardar los resultados:
 El DataFrame final que contiene todas las características de los negocios en los barrios se guarda en un archivo CSV y otro JSON. Estos archivos sirven como la base de datos para generar informes de Business Intelligence.
 
-Informes de Business Intelligence
+### Informes de Business Intelligence:
 A partir de las características creadas en el proceso de feature engineering, se generaron informes detallados para cada barrio de Barcelona, que incluyen:
 
 Poblenou: Con un número total de 1,512 negocios, una antigüedad promedio de 2.64 años y una alta concentración de medianos y grandes negocios. Se sugiere aprovechar la infraestructura existente para nuevas alianzas estratégicas y expansión comercial.
@@ -46,5 +46,9 @@ El Clot: Con 861 negocios y una antigüedad promedio de 2.76 años, se observa u
 Poble Sec: Cuenta con 1,288 negocios y una antigüedad promedio de 2.78 años. La mayoría de los negocios son medianos, lo que sugiere oportunidades para el crecimiento de pequeños comercios.
 
 Estos informes proporcionan información clave para identificar oportunidades comerciales, hacer análisis comparativos entre barrios, y ofrecer recomendaciones personalizadas para emprendedores o empresas que busquen expandirse en Barcelona.
+
+Poble Sec: With 1,288 businesses and an average age of 2.78 years. Most businesses are medium-sized, which suggests opportunities for the growth of small businesses.
+
+These reports provide key information to identify commercial opportunities, perform comparative analysis between neighborhoods, and offer personalized recommendations for entrepreneurs or companies looking to expand in Barcelona.
 
 
