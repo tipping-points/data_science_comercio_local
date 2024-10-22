@@ -6,17 +6,17 @@ En el repositorio de Data Science se encuentra el archivo hackaton.ipynb donde s
 
 El objetivo principal de este proyecto es desarrollar una herramienta de Business Intelligence que permita a personas emprendedoras o empresas que buscan establecerse en diferentes barrios de Barcelona, acceder a información estratégica sobre la actividad comercial en cada barrio. A través de esta herramienta, los usuarios podrán evaluar aspectos clave como la densidad comercial, la diversidad de categorías de negocio, la antigüedad promedio de los establecimientos, y más. De esta manera, se facilitará la toma de decisiones para la apertura de nuevos negocios, maximizando las oportunidades de éxito al identificar barrios con alto potencial comercial.
 
-Descripción paso a paso del proceso
-Importación de Bibliotecas:
+## Descripción paso a paso del proceso
+### Importación de Bibliotecas:
 En esta primera parte, se importan las bibliotecas necesarias como pandas para la manipulación de datos, y matplotlib para la visualización de gráficos.
 
-Carga de los datasets:
+### Carga de los datasets:
 Los datos de los negocios en diferentes barrios se cargan desde archivos JSON que ya han sido limpiados previamente. Los datos contienen información clave como la ubicación de los negocios, su antigüedad, categoría de actividad, entre otros detalles.
 
-Concatenación de datasets:
+### Concatenación de datasets:
 Los dos conjuntos de datos se combinan en un solo DataFrame para hacer un análisis conjunto y estructurado de los negocios en los barrios de Barcelona.
 
-Creación de características (Feature Engineering):
+### Creación de características (Feature Engineering):
 Se generan múltiples características clave para analizar los negocios por barrio, entre las cuales se incluyen:
 
 Cantidad de negocios por barrio: Calcula cuántos negocios hay en cada barrio.
