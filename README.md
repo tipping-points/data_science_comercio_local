@@ -1,6 +1,6 @@
 # Comercio Local
 
-Carga de Datos
+Carga de Datos:
 El proyecto comienza con la carga de datos desde un archivo CSV utilizando pandas, una biblioteca ampliamente utilizada para manipulación de datos en Python.
 
 Bibliotecas Importadas:
