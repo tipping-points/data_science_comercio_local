@@ -1,6 +1,7 @@
 # Comercio Local
 
-Carga de Datos:  El proyecto comienza con la carga de datos desde un archivo CSV utilizando la biblioteca pandas. Para este análisis, se importan también numpy y matplotlib para la manipulación de datos y la generación de gráficos.
+### Carga de Datos:  
+El proyecto comienza con la carga de datos desde un archivo CSV utilizando la biblioteca pandas. Para este análisis, se importan también numpy y matplotlib para la manipulación de datos y la generación de gráficos.
 
 Los datos se cargan desde el archivo CSV llamado 2024_locals_us_desti.csv, almacenándolos en un DataFrame llamado df para su procesamiento posterior.
 
