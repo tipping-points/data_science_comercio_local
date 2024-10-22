@@ -1,15 +1,9 @@
 # Comercio Local
 
-Carga de Datos:
-El proyecto comienza con la carga de datos desde un archivo CSV utilizando pandas, una biblioteca ampliamente utilizada para manipulación de datos en Python.
-
-Bibliotecas Importadas:
-pandas: Utilizada para la manipulación de datos.
-numpy: Ofrece funciones matemáticas avanzadas, aunque en este fragmento no se utiliza directamente.
-matplotlib.pyplot: Se importa para la creación de visualizaciones, aunque tampoco se usa en este bloque.
-
-Cargar los datos:
-Los datos se cargan desde el archivo CSV llamado 2024_locals_us_desti.csv ubicado en la carpeta ./Data/ y se almacenan en un DataFrame llamado df. El archivo contiene información sobre locales y mercados que se utilizarán en el análisis.
+CARGA DE DATOS
+El proyecto comienza con la carga de datos desde un archivo CSV utilizando pandas.
+Importamos las siguientes librerias: pandas, numpy y matplotlib
+Los datos se cargan desde el archivo CSV llamado 2024_locals_us_desti.csv y se almacenan en un DataFrame llamado df. 
 
 EDA
 
@@ -18,29 +12,20 @@ Se incluye una función personalizada para analizar las columnas de los datasets
 
 LIMPIEZA
 
-Eliminación de duplicados:
 Se eliminan las filas duplicadas en el DataFrame para evitar sesgos en el análisis posterior.
-Conteo de valores nulos: Se cuenta el número de valores nulos por columna para identificar posibles problemas con los datos faltantes.
+Posteriormente se cuenta el número de valores nulos por columna para identificar posibles problemas con los datos faltantes.
 
 Se exporta el DataFrame limpio a un archivo JSON provisional (2024_locals_us_desti_cleaned.json) para que el equipo de backend lo pueda revisar. El archivo se guarda con el formato de "records", donde cada línea representa un registro independiente.
-
 Se guarda el DataFrame limpio en formato CSV para análisis posteriores, excluyendo el índice del DataFrame como columna.
-Análisis del dataset limpio:
-
 Finalmente, se utiliza la función analyze_columns para mostrar un análisis de las columnas del dataset limpio, incluyendo los tipos de datos y los valores únicos por columna.
-
-
 
 El primer dataset esta listo y cargamos un segundo dataset para realizar análisis adicionales.
 
-Procedemos a la limpieza:
+
+Procedemos a la limpieza del segundo dataset:
 
 Se eliminan las filas duplicadas para asegurar que cada registro sea único.
-Eliminación de filas con valores nulos:
-
 Se eliminan las filas que tienen valores nulos en las columnas clave (Porta, Solar, Codi_Parcela, etc.), lo que asegura que los datos incompletos no afecten el análisis.
-Eliminación de columnas innecesarias:
-
 Se eliminan columnas que no son relevantes para el análisis, como nombres de mercados, galerías, centros comerciales y otras variables redundantes.
 Transformación de fechas:
 
@@ -68,10 +53,7 @@ Creamos varias columnas calculadas:
 -Cantidad de negocios con más de 10 años de antigüedad.
 
 Se utiliza la columna de Data_Revision para calcular la antigüedad de los negocios y el promedio de años de revisión por barrio.
-Guardado de las características:
-
-Las nuevas características calculadas por barrio se guardan en dos formatos: CSV (features_barrio.csv) y JSON (features_barrio.json).
-
+Las nuevas características calculadas por barrio se guardan en dos formatos: CSV y JSON.
 
 RESULTADOS
 Figura 1: Top 15 Barrios con Mayor Cantidad de Negocios
